@@ -12,7 +12,7 @@ const Tech = () => {
     <>
     <motion.div variants={fadeIn("","pop-up",0.1,2)}>
     <div className="w-full flex justify-center items-center ">
-      <h3 className={`${styles.sectionHeadText} text-center mb-20`}>Femiliar With</h3>
+      <h3 className={`${styles.sectionHeadText} text-center mb-20`}>Femiliar With.</h3>
     </div>
     <div className='flex flex-row flex-wrap justify-center gap-7'>
       {technologies.map((technology,index) => (

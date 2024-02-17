@@ -22,6 +22,7 @@ import {
     jobit,
     
     threejs,
+    tokyo,
   } from "../assets";
   
   export const navLinks = [
@@ -172,9 +173,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "COM AIR",
+      name: "Tokyo Traverse",
       description:
-        "Looking for a smooth and hassle-free shopping experience? Our fully functional E-commerce App has got you covered! Enjoy browsing, selecting, and purchasing your favorite products effortlessly with our user-friendly platform.",
+        "E cmmerce app,where anime enthusiastics find their dream products .From collectibles to apparel,immerse yourself ,in a world where anime passion meets seamless shopping",
       tags: [
         {
           name: "react",
@@ -185,13 +186,14 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: tokyo,
       source_code_link: "https://github.com/",
     },
+    
     
   ];
   
