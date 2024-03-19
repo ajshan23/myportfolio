@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+
     web,
     javascript,
     typescript,
@@ -14,12 +14,12 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+   
     starbucks,
     tesla,
     shopify,
     carrent,
-    jobit,
+
     
     threejs,
     tokyo,
@@ -73,10 +73,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -109,10 +109,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+   
   ];
   
   const experiences = [
@@ -170,7 +167,8 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ajshan23/EveeGPT2.0.git",
+      link:"https://eveegpt3.netlify.app/"
     },
     {
       name: "Tokyo Traverse",
@@ -191,7 +189,8 @@ import {
         },
       ],
       image: tokyo,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ajshan23/tokyotraverse.git",
+      link:"https://tokyo-traverse.onrender.com/"
     },
     
     

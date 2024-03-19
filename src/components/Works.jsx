@@ -15,9 +15,10 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} >
       <Tilt
         options={{
           max: 10,
@@ -26,7 +27,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px]' onClick={() => window.open(link, "_blank")}>
           <img
             src={image}
             alt='project_image'
@@ -90,7 +91,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} {...project}  />
         ))}
       </div>
     </>
