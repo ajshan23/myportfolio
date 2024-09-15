@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+
     web,
     javascript,
     typescript,
@@ -14,14 +14,15 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+   
     starbucks,
     tesla,
     shopify,
     carrent,
-    jobit,
+
     
     threejs,
+    tokyo,
   } from "../assets";
   
   export const navLinks = [
@@ -72,10 +73,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -108,10 +109,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+   
   ];
   
   const experiences = [
@@ -169,12 +167,13 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ajshan23/EveeGPT2.0.git",
+      link:"https://eveegpt3.netlify.app/"
     },
     {
-      name: "COM AIR",
+      name: "Tokyo Traverse",
       description:
-        "Looking for a smooth and hassle-free shopping experience? Our fully functional E-commerce App has got you covered! Enjoy browsing, selecting, and purchasing your favorite products effortlessly with our user-friendly platform.",
+        "E cmmerce app,where anime enthusiastics find their dream products .From collectibles to apparel,immerse yourself ,in a world where anime passion meets seamless shopping",
       tags: [
         {
           name: "react",
@@ -185,13 +184,15 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: tokyo,
+      source_code_link: "https://github.com/ajshan23/tokyotraverse.git",
+      link:"https://tokyo-traverse.onrender.com/"
     },
+    
     
   ];
   
